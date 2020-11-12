@@ -1,0 +1,169 @@
+@font-face {
+  font-family: "AbrilFatface"; src: url(../font/AbrilFatface-Regular.ttf);
+}
+
+body {
+    font-family: 'AbrilFatface', cursive;
+}
+
+
+/*==========================
+Блок старта
+===========================*/
+#startBlock{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-size: 135%;
+}
+
+#startBlock button{
+    width: 300px;
+    height: 150px;
+    font-size: 100px;
+    position: absolute;
+    margin-top: auto;
+    top: 225px;
+    left: 250px;
+    display: block;
+    color: magenta;
+    cursor: pointer;
+    background: 0;
+    border: 0;
+    font-family: 'AbrilFatface', cursive;
+}
+
+#startBlock h1{
+    position: absolute;
+    font-size: 100px;
+    left: 220px;
+    color: red;
+}
+
+#leftRight {
+    position: absolute;
+    left: 275px;
+    top: 515px;
+    color: black;
+}
+
+.infoDrive{
+    position: absolute;
+    left: 170px;
+    top: 510px;
+    color: black;
+}
+
+.infoShoot{
+    position: absolute;
+    left: 425px;
+    top: 510px;
+    color: black;
+}
+
+.infoSpace{
+    position: absolute;
+    left: 450px;
+    top: 500px;
+}
+
+
+/*==========================
+        Игра
+===========================*/
+#gamePole{
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+    background-size: 100%;
+    background-image: url(../images/123.gif);
+ }
+
+#ochki{
+    font-size: 44px;
+    color: gold;
+    position: absolute;
+    font-weight: bold;
+    top: 5px;
+    left: 10px;
+}
+
+#life{  
+    top: 30px;
+    right: 20px;
+    position: absolute;
+}
+
+#life span{
+    width: 26px;
+    height: 26px;
+    float: right;
+}
+
+#ship{
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    top: 500px;
+    left: 400px;
+    transition: all 0.1s;  
+}
+
+#pull{
+    width: 10px;
+    height: 20px;
+    background: orange;
+    position: absolute;
+    transition: all 0s;
+    border-radius: 14px;
+}
+
+#enemy-block{
+    top: 60px;
+    left: 100px;
+    width: 600px;
+    height: 250px;
+    position: absolute;
+}
+
+
+/*-----------------------------
+    Блок завершения игры
+===============================*/
+
+#h2{
+    position: absolute;
+    left: 274px;
+    font-size: 50px;
+    color: white;
+    top: 30px;
+}
+
+#h3{
+    position: absolute;
+    top: 140px;
+    font-size: 50px;
+    left: 184px;
+    color: white;
+    line-height: 70px;
+}
+
+#start-knopka{
+  width: 100%;
+  height: 100%;
+  font-size: 60px;
+  cursor: pointer;
+  border: 0;
+  background: 0;
+  color: white;
+  font-family: 'AbrilFatface', cursive;
+}
+
+#start-block{
+    position: absolute;
+    top: 355px;
+    width: 300px;
+    left: 250px;
+    height: 90px;
+}
