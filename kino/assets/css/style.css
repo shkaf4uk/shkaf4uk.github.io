@@ -344,6 +344,10 @@ td img {
   font-weight: bold;
 }
 
+.sidebar_container {
+	width: 255px;
+    float: right;
+}
 
 
 .footer {
