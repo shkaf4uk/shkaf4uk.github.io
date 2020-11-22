@@ -19,7 +19,6 @@ a {
 	flex-direction: column;
 }
 
-
 .jcsb {
 	justify-content: space-between;
 }
@@ -53,15 +52,12 @@ a {
 
 .my__foto {
 	flex-direction:row;
-	height: 30%;
-	width: 100%;
 	align-items: flex-start;
 	margin-bottom: 30px;
 }
 
 .my__foto img {
-	width: 24%;
-    height: 100%;
+	width: 15%;
     border-radius: 10%;
     margin-top: 15px;
 }
@@ -84,21 +80,17 @@ a {
 	margin: 15px;
 }
 
-.my__works ul {
-	float: right;
+.my__works a {
+	margin: 10px;
 }
 
-.my__works ul li {
-	float: left;
-	margin-right: 40px;
-}
-
-.my__works ul li a:hover {
+.my__works a:hover {
 	color: #b6b6b6;
 }
 
 .my__skills__img img {
 	width: 100px;
+	margin: 9px;
 }
 
 .scale {
@@ -124,4 +116,26 @@ a {
 
 .my__contact span {
 	margin-bottom: 15px;
+}
+
+/* media  1000px*/
+@media (max-width: 1000px) {
+	.content {
+		width: 100%;
+	}
+
+	.welcome {
+		height: 100%;
+	}
+}
+
+/* media  710*/
+@media (max-width: 710px) {
+	.my__works {
+		flex-wrap: wrap;
+	}
+
+	.my__skills__img {
+		flex-wrap: wrap;
+	}
 }
