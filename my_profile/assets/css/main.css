@@ -104,6 +104,10 @@ a {
 	margin: 9px;
 }
 
+#react_redux {
+ width: 150px;
+}
+
 .scale {
 	transition: 0.5s; 
 }
