@@ -16,7 +16,6 @@
 .content{
 	width: 1440px;
 	margin: 0 auto;
- 	background-color: rgb(135, 80, 156);
  	height: 595px;
  	position: relative;
  	font-family: 'Titillium Web', sans-serif;
@@ -41,7 +40,8 @@
 .welcome {
 	width: 100%;
 	margin: 0 auto;
- 	background-color: rgb(135, 80, 156);
+	background: linear-gradient(180deg, #5E19CE 0%, #4021D6 100%);
+	mix-blend-mode: darken;
  	height: 595px;
  	position: relative;
  	font-family: 'Titillium Web', sans-serif;
